@@ -1,7 +1,5 @@
 const cluster = require('cluster');
-if (cluster.isMaster) {
-    require('dotenv-flow').config();
-}
+
 
 const exitHook = require('async-exit-hook');
 const sticky = require('sticky-session-custom');
