@@ -1,7 +1,5 @@
 const cluster = require('cluster');
 
-
-const exitHook = require('async-exit-hook');
 const sticky = require('sticky-session-custom');
 const RammerheadProxy = require('../classes/RammerheadProxy');
 const addStaticDirToProxy = require('../util/addStaticDirToProxy');
